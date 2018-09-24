@@ -1,11 +1,15 @@
 def make_sqaure(size):
-    pass
+  for i in range(size):
+    print("*" * size)
 
 def make_rectangle(length, width):
-    pass
+  for i in range(length):
+    print("*" * width)
 
 def make_triangle(size):
-    pass
+  for i in range(1,size*2,2):
+    print("."*(size-1) + "*"*i + "."*(size-1))
+    size-=1
 
 def main():
     while(True):
